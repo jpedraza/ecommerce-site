@@ -1,4 +1,6 @@
 Website::Application.routes.draw do
+  resources :vmt_files
+
   resources :products
 
   # The priority is based upon order of creation:
